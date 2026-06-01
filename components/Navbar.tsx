@@ -6,12 +6,12 @@ import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 
 const navLinks = [
-  { href: "/about", label: "Sobre" },
+  { href: "/about", label: "About" },
   { href: "/qa-projects", label: "QA Projects" },
   { href: "/bug-reports", label: "Bug Reports" },
   { href: "/game-projects", label: "Game Projects" },
   { href: "/skills", label: "Skills" },
-  { href: "/contact", label: "Contato" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Navbar() {
