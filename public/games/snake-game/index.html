@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Snake Game - Cobrinha</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="game-details">
+            <span class="score">Score: 0</span>
+            <span class="high-score">High Score: 0</span>
+        </div>
+
+        <div class="play-board"></div>
+
+        <div class="start-screen">
+            <h2>Snake Game</h2>
+            <p>Clique na tela ou pressione uma seta para começar.</p>
+            <p class="start-hint">Use as setas do teclado para controlar a cobrinha.</p>
+            <button class="start-button">Começar</button>
+        </div>
+
+        <div class="game-over hidden">
+            <h2>Game Over</h2>
+            <p>Você perdeu!</p>
+            <button class="restart-button">Jogar novamente</button>
+        </div>
+
+        <div class="win-screen hidden">
+            <h2>Você venceu!</h2>
+            <p>Parabéns, você atingiu a pontuação necessária.</p>
+            <button class="win-restart-button">Jogar novamente</button>
+        </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

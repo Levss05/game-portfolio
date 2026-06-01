@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tetris JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <script src="./js/Tabuleiro.js" defer></script>
+    <script src="./js/Tetrimino.js" defer></script>
+    <script src="./js/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="overlay" id="start-screen">
+      <h1>Tetris</h1>
+
+      <p>
+        Complete linhas para marcar pontos. Use as setas para mover e girar as
+        peças.
+      </p>
+
+      <p class="controls-text">
+        ← → mover | ↑ girar | ↓ descer | Espaço jogar no fundo
+      </p>
+
+      <button id="start-button">Começar jogo</button>
+    </div>
+
+    <div class="overlay hidden" id="game-over-screen">
+      <h2>Game Over</h2>
+      <p>As peças chegaram ao topo do tabuleiro.</p>
+      <button id="restart-button">Jogar novamente</button>
+    </div>
+
+    <div class="overlay hidden" id="win-screen">
+      <h2>Você venceu!</h2>
+      <p>Parabéns, você completou a quantidade necessária de linhas.</p>
+      <button id="win-restart-button">Jogar novamente</button>
+    </div>
+
+    <div class="mobile-controls">
+      <button data-action="left">←</button>
+      <button data-action="rotate">⟳</button>
+      <button data-action="right">→</button>
+      <button data-action="down">↓</button>
+      <button data-action="drop">Drop</button>
+  </div>
+  </body>
+</html>
