@@ -9,38 +9,40 @@ import RevealCard from "@/components/RevealCard";
 const skillCategories = [
   {
     title: "QA Game Testing",
-    description: "Conceitos e práticas voltadas para testes de jogos.",
+    description: "Concepts and practices focused on game testing.",
     icon: <FaBug />,
     skills: [
       "Bug Reports",
-      "Testes exploratórios",
-      "Reprodução de bugs",
-      "Evidências em vídeo",
-      "Severidade e frequência",
-      "Test cases",
-      "Checklists de teste",
-      "Análise de gameplay",
+      "Exploratory Testing",
+      "Bug Reproduction",
+      "Video Evidence",
+      "Test Cases",
+      "Testing Checklists",
+      "Gameplay Analysis",
     ],
   },
   {
-    title: "Game Development",
-    description: "Estudos e práticas relacionados ao desenvolvimento de jogos.",
+    title: "Game",
+    description: "Studies and practices related to game development.",
     icon: <FaGamepad />,
     skills: [
       "Game Logic",
-      "Protótipos 2D",
+      "2D Prototypes",
       "Canvas",
       "p5.js",
-      "Colisão",
-      "Pontuação",
-      "Estados de jogo",
+      "Collision",
+      "Scoring",
+      "Game States",
       "Pixel Art / Arcade Style",
+      "Game Design",
+      "Game Development",
+      "Godot / Unity - 2D",
     ],
   },
   {
     title: "Front-end",
     description:
-      "Tecnologias usadas na construção deste portfólio e interfaces.",
+      "Technologies used to build this portfolio and its interfaces.",
     icon: <FaCode />,
     skills: [
       "HTML",
@@ -54,8 +56,8 @@ const skillCategories = [
     ],
   },
   {
-    title: "Back-end & Banco de Dados",
-    description: "Base técnica adquirida durante meus estudos em ADS.",
+    title: "Back-end & Database",
+    description: "Technical foundation acquired during my ADS studies.",
     icon: <FaDatabase />,
     skills: [
       "Java",
@@ -65,33 +67,39 @@ const skillCategories = [
       "MongoDB",
       "APIs",
       "Spring Boot",
+      "Python",
+      "C",
+      "C#",
     ],
   },
   {
     title: "Tools",
     description:
-      "Ferramentas que utilizo para versionamento, organização e desenvolvimento.",
+      "Tools I use for version control, organization, and development.",
     icon: <FaTools />,
     skills: [
       "Git",
       "GitHub",
       "VS Code",
+      "Visual Studio",
       "Postman",
       "Figma",
       "Trello / Jira",
       "Vercel",
+      "Godot",
+      "Unity",
     ],
   },
   {
     title: "Hardware",
-    description: "Parte física de todo computador",
+    description: "The physical components of a computer.",
     icon: <IoHardwareChip />,
     skills: [
-      "Montagem",
-      "Desmontagem",
-      "Limpeza",
-      "Identificação de problemas",
-      "Resolução de problemas",
+      "Assembly",
+      "Disassembly",
+      "Cleaning",
+      "Problem Identification",
+      "Troubleshooting",
     ],
   },
 ];
@@ -102,8 +110,8 @@ export default function SkillsPage() {
       <FadeIn>
         <SectionHeader
           label="Skills"
-          title="Habilidades e ferramentas"
-          description="Tecnologias, conceitos e ferramentas que estou estudando para atuar com QA Game Testing, desenvolvimento web e futuramente desenvolvimento de jogos."
+          title="Skills and Tools"
+          description="Technologies, concepts, and tools I am studying to work with Game QA Testing, web development, and, in the future, game development."
         />
       </FadeIn>
 

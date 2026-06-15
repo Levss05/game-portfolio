@@ -26,13 +26,13 @@ export default function Home() {
             <h1 className="mb-6 text-4xl font-bold leading-tight text-white md:text-6xl">
               Lucas Levasseur
               <span className="block text-violet-400">
-                QA Game Tester em formação
+                Game QA Tester em formação
               </span>
             </h1>
 
             <p className="mb-8 max-w-2xl text-lg leading-8 text-zinc-300">
               Estudante de Análise e Desenvolvimento de Sistemas construindo
-              carreira na indústria de games, com foco em QA Game Testing,
+              carreira na indústria de games, com foco em Game QA Testing,
               análise de bugs, testes de gameplay e futuramente desenvolvimento
               de jogos digitais.
             </p>

@@ -11,37 +11,37 @@ export default function ContactPage() {
     <PageContainer>
       <FadeIn>
         <SectionHeader
-          label="Contato"
-          title="Vamos conversar?"
-          description="Estou buscando oportunidades para iniciar minha carreira na indústria de games, principalmente em QA Game Testing, testes de gameplay e áreas relacionadas."
+          label="Contact"
+          title="Let's talk?"
+          description="I am looking for opportunities to start my career in the games industry, mainly in Game QA Testing, gameplay testing, and related areas."
         />
       </FadeIn>
 
       <FadeIn delay={0.2}>
         <div className="grid gap-4 md:grid-cols-3">
           <InfoCard
-            title="E-mail"
+            title="Email"
             description="lucas.lailhacar30@gmail.com"
             href="https://mail.google.com/mail/?view=cm&fs=1&to=lucas.lailhacar30@gmail.com"
-            linkLabel="Enviar e-mail"
+            linkLabel="Send email"
             external
             icon={<SiGmail />}
           />
 
           <InfoCard
             title="LinkedIn"
-            description="Acesse meu perfil profissional e acompanhe minha evolução na área de tecnologia e games."
+            description="Visit my professional profile and follow my growth in technology and games."
             href="https://www.linkedin.com/in/lucasandres30/"
-            linkLabel="Acessar LinkedIn"
+            linkLabel="Visit LinkedIn"
             external
             icon={<FaLinkedin />}
           />
 
           <InfoCard
             title="GitHub"
-            description="Veja meus projetos, estudos e códigos publicados."
+            description="Check out my projects, studies, and published code."
             href="https://github.com/Levss05"
-            linkLabel="Acessar GitHub"
+            linkLabel="Visit GitHub"
             external
             icon={<FaGithub />}
           />
@@ -51,13 +51,13 @@ export default function ContactPage() {
       <FadeIn delay={0.3}>
         <div className="mt-10 rounded-2xl border border-white/10 bg-white/5 p-6 hover:border-violet-400/40 hover:bg-white/10">
           <h2 className="mb-4 text-2xl font-semibold text-white">
-            Aberto a oportunidades
+            Open to opportunities
           </h2>
 
           <p className="mb-6 max-w-3xl leading-8 text-zinc-300">
-            Tenho interesse em vagas de QA Game Tester, Game Tester, Gameplay
-            Tester, Localization QA, Game Support e oportunidades relacionadas à
-            indústria de jogos.
+            I am interested in QA Game Tester, Game Tester, Gameplay Tester,
+            Localization QA, Game Support, and other opportunities related to
+            the games industry.
           </p>
 
           <div className="flex flex-col gap-4 sm:flex-row">
@@ -65,7 +65,7 @@ export default function ContactPage() {
               href="https://mail.google.com/mail/?view=cm&fs=1&to=lucas.lailhacar30@gmail.com"
               external
             >
-              Enviar e-mail
+              Send email
             </CustomLink>
 
             <CustomLink
@@ -73,7 +73,7 @@ export default function ContactPage() {
               variant="secondary"
               external
             >
-              Currículo
+              Resume
             </CustomLink>
           </div>
         </div>
